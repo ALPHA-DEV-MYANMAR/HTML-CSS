@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <center>
+        <div class="a">
+            <h1>Student Registration Form</h1>
+            <form method="GET">
+                <table>
+                    <tr>
+                        <td><label for="">Name:</label></td>
+                        <td><input name="name" type="text" placeholder="Enter full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Father's Name:</label></td>
+                        <td> <input name="fname" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Mother's Name:</label></td>
+                        <td><input name="mname" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Phone Number:</label></td>
+                        <td><input name="phone" type="text" placeholder="017xxxxxxx"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Email:</label></td>
+                        <td><input name="email" type="text" placeholder="sample@example.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Gender:</label></td>
+                        <td>
+                            <input type="radio" value="male" name="radio">Male
+                            <input type="radio" value="female" name="radio">Female
+                            <input type="radio" value="other" name="radio">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth:</td>
+                        <td>
+                            <input type="text" name='day' class="db">-
+                            <input type="text" name="month" class="db">-
+                            <input type="text" name="year" class="db">(dd-mm-yy)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Address:</label></td>
+                        <td><input type="text" name="address" placeholder="Street-House-Road"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Blood Group:</label></td>
+                        <td>
+                            <select name="blood">
+                                <option selected>Select</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="O">O</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Deparment</label></td>
+                        <td>
+                            <input type="radio" value="CSE" name="radio">CSE
+                            <input type="radio" value="EEE" name="radio">EEE
+                            <input type="radio" value="BBA" name="radio">BBA
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Course</label></td>
+                        <td>
+                            <input value="C" name="cource" type="checkbox">C
+                            <input value="C++" name="cource" type="checkbox">C++
+                            <input value="JAVA" name="cource" type="checkbox">JAVA
+                            <input value="AI" name="cource" type="checkbox">AI
+                            <input value="Mechine Learning" name="cource" type="checkbox">Mechine Learning
+                            <input value="Robotics" name="cource" type="checkbox">Robotics
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Photo:</label></td>
+                        <td>
+                            <input name="photo" type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">submit</button>
+                            <button type="reset">reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
