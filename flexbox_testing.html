@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flax Box Tasting</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .bg-skyblue {
+        background-color: skyblue;
+    }
+
+    .bg-yellow {
+        background-color: yellow;
+    }
+
+    /**One**/
+
+    .one {
+        display: flex;
+        background-color: rgb(192, 120, 120);
+        height: 50vh;
+    }
+
+    .part {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .innerText {
+        width: 300px;
+    }
+
+
+    /** Two **/
+    .two {
+        display: flex;
+        width: 950px;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: -60px;
+    }
+
+    .part1 {
+        width: 300px;
+        text-align: center;
+        border: 1px solid white;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000022;
+        padding: 20px;
+    }
+
+    .part1:hover {
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09),
+            0 4px 2px rgba(0, 0, 0, 0.09),
+            0 8px 4px rgba(0, 0, 0, 0.09),
+            0 16px 8px rgba(0, 0, 0, 0.09),
+            0 32px 16px rgba(0, 0, 0, 0.09);
+    }
+
+    /**Three**/
+
+    .three {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .text {
+        width: 500px;
+    }
+
+    /**Four**/
+    .four {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 360px;
+        border-radius: 10px;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09),
+        0 4px 2px rgba(0, 0, 0, 0.09),
+        0 8px 4px rgba(0, 0, 0, 0.09),
+        0 16px 8px rgba(0, 0, 0, 0.09),
+        0 32px 16px rgba(0, 0, 0, 0.09);
+    }
+
+    .img-text{
+        width: 360px;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .five{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .img-text-five{
+        width: 360px;
+        padding: 20px;
+        text-align: right;
+    }
+
+</style>
+
+<body>
+
+    <div class="one">
+        <div class="part left bg-skyblue">
+        </div>
+        <div class="part right bg-yellow">
+            <div class="innerText">
+                <div>
+                    <h1>Hello World</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae culpa delectus officia
+                        reprehenderit vitae nam laudantium quaerat nulla non ullam cumque consequatur earum natus nihil
+                        aut architecto, perferendis sapiente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="part1">
+            <h1>I'm Part One</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum sapiente saepe laudantium at maxime
+                tenetur quod, alias optio, illo dolorem molestias corrupti magni iste autem itaque omnis voluptatibus
+                laboriosam!</p>
+        </div>
+        <div class="part1">
+            <h1>I'm Part Two</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum sapiente saepe laudantium at maxime
+                tenetur quod, alias optio, illo dolorem molestias corrupti magni iste autem itaque omnis voluptatibus
+                laboriosam!</p>
+        </div>
+        <div class="part1">
+            <h1>I'm Part Three</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum sapiente saepe laudantium at maxime
+                tenetur quod, alias optio, illo dolorem molestias corrupti magni iste autem itaque omnis voluptatibus
+                laboriosam!</p>
+        </div>
+    </div>
+
+    <div class="three">
+        <div class="text">
+            <div>
+                <h1 style="text-align: center;">Hello Title</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, quia illum! At, nesciunt, dolore
+                    suscipit ipsum vitae consequuntur optio quasi libero maxime consequatur labore illo error! Odio iste
+                    voluptate veniam!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="four">
+        <div class="img">
+            <img src="img/tz5.jpg" alt="">
+        </div>
+        <div class="img-text">
+            <h1>Hello Title Four</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem blanditiis, quis ipsam error amet
+                voluptates sed hic alias delectus cumque, aliquam adipisci libero in aspernatur et doloremque? Totam,
+                voluptas.</p>
+        </div>
+    </div>
+
+    <div class="four five">
+        <div class="img">
+            <img src="img/tz6.jpg" alt="">
+        </div>
+        <div class="img-text-five">
+            <h1>Hello Title Four</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem blanditiis, quis ipsam error amet
+                voluptates sed hic alias delectus cumque, aliquam adipisci libero in aspernatur et doloremque? Totam,
+                voluptas.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
