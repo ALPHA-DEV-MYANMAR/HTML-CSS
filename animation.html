@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amination</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #757F9A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #D7DDE8, #757F9A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }
+
+        #obj {
+            text-align: center;
+            font-size: 100px;
+            border-radius: 50%;
+            background-color: rgb(232, 238, 229);
+            /**animation-name: first;
+            animation-delay: 1s;
+            animation-direction:alternate;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;**/
+            animation: first 1s linear 1s infinite alternate both;
+            box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+
+        }
+
+        @keyframes first {
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(90vh);
+            }
+        }
+    </style>
+
+</head>
+
+<body>  
+
+    <center>
+
+        <i id="obj" class="fas fa-basketball-ball"></i>
+
+    </center>
+    
+</body>
+
+</html>

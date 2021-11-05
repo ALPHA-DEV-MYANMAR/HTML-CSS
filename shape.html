@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape</title>
+
+    <style>
+        .circle{
+            width: 50px;
+            border-radius: 50%;
+            height: 50px;
+            border: 2px solid black;
+            background: #a08d8d;
+        }
+
+        .bg-img{
+            background-image: url('img/tz5.jpg');
+            background-size: cover;
+        }
+
+        .triangle{
+            border:50px solid white;
+            width: 0;
+            border-bottom-color: yellow;
+        }
+
+        .left{
+            border-left-color: yellow;
+        }
+
+        .right{
+            border-right-color: yellow;
+        }
+        
+        .env{
+            height: 0;
+            width: 0;
+            border:50px solid black;
+            border-top-color:yellow;
+            border-bottom-width: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="circle bg-img" alt=""></div>
+    <hr>
+
+    <div class="triangle"></div>
+    <hr>
+
+    <div class="triangle left"></div>
+    <hr>
+
+    <div class="triangle right"></div>
+    <hr>
+
+    <div class="env"></div>
+
+</body>
+</html>

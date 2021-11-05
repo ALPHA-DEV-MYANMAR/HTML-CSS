@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Fruktur', cursive;
+            padding: 5px;
+        }
+
+        .heading {
+            color: chartreuse;
+            margin-bottom: 30px;
+        }
+
+        .paragraph{
+            margin-bottom: 10px;
+            column-count: 3;
+            column-width: 300px;
+            column-rule: 1px solid blueviolet;
+            text-align: justify;
+            line-height: 30px;
+        }
+
+        .full {
+            column-span: all;
+            margin-bottom: 30px;
+            margin-top: 30px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Hello World</h1>
+    </div>
+
+    <div class="paragraph">
+        <p class="full"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+        <p class="full">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eius autem laborum! Quia expedita beatae
+            magnam iste neque aspernatur et harum, recusandae tempora perspiciatis assumenda accusantium architecto
+            molestias laboriosam cumque!
+        </p>
+    </div>
+</body>
+
+</html>
